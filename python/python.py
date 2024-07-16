@@ -1,10 +1,10 @@
 print("Hello welcome to the Algo bot")
-menu = '''Pick one option(off-to finish)'''
+menu = '''Pick one option(off-to finish)
 
 1-Music
 2-Games
 3-Movies 
-4-Sports
+4-Sports'''
 
 choice = input(menu)
 while choice != "off":
