@@ -4,7 +4,8 @@ menu = '''Pick one option(off-to finish)
 1-Music
 2-Games
 3-Movies 
-4-Sports'''
+4-Sports
+5-Fun facts'''
 
 choice = input(menu)
 while choice != "off":
@@ -63,7 +64,20 @@ while choice != "off":
         print("tennis")
     else :
         print("fornite")
-
+    
+    #Fun facts
+    elif choice == "4" or choice.lower() == "Fun facts":
+        Fun facts:[
+            "Bananas are berries, but strawberries are not.",
+        "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+        "Octopuses have three hearts: two pump blood to their gills, and the third pumps it to the rest of the body.",
+        "Cleopatra lived closer in time to the first Moon landing than to the construction of the Great Pyramid.",
+        "The Eiffel Tower can be 15 cm taller during the summer due to the expansion of iron when heated.",
+        "Pineapples take two years to grow.",
+        "A group of flamingos is called a flamboyance.",
+        "The shortest war in history was between Britain and Zanzibar on August 27, 1896, lasting about 38 minutes.",
+        ]
+   
 
 
               
