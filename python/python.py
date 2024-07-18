@@ -1,4 +1,6 @@
 print("Hello welcome to the Algo bot")
+
+
 menu = '''Pick one option(off-to finish)
 
 1-Music
@@ -8,9 +10,9 @@ menu = '''Pick one option(off-to finish)
 5-Fun facts'''
 
 choice = input(menu)
-while choice != "off":
-    #Music 
-    if choice == "1" or choice.lower() == Music
+#Music Function
+def music()
+ if choice == "1" or choice.lower() == Music 
     genre = input("What type of music do you like?")
     if genre == "french":
         print("formidable")
@@ -22,9 +24,10 @@ while choice != "off":
         print("africain")
     else :
         print("mexicain")
+    
 
-    #Games
-    if choice == "2" or choice.lower() == Games
+#Games Function
+ if choice == "2" or choice.lower() == Games 
     genre = input("What type of games do you like?")
     if genre == "family":
         print("Monopoly")
@@ -37,8 +40,8 @@ while choice != "off":
     else :
         print("Candy crush")
 
-    #Movies
-    if choice == "3" or choice.lower() == Movies
+#Movies Function
+     if choice == "3" or choice.lower() == Movies 
     genre = input("What type of movies do you like?")
     if genre == "action":
         print("fast and furious6")
@@ -51,8 +54,8 @@ while choice != "off":
     else :
         print("Lupin")
 
-    #Sport
-    if choice == "4" or choice.lower() == sport
+#Sports Function 
+ if choice == "4" or choice.lower() == Sports
     genre = input("What type of sport do you like ? ")
     if genre == "team sports":
         print("football") 
@@ -64,23 +67,9 @@ while choice != "off":
         print("tennis")
     else :
         print("fornite")
-    
-    #Fun facts
-    elif choice == "4" or choice.lower() == "Fun facts":
-        Fun facts:[
-            "Bananas are berries, but strawberries are not.",
-        "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
-        "Octopuses have three hearts: two pump blood to their gills, and the third pumps it to the rest of the body.",
-        "Cleopatra lived closer in time to the first Moon landing than to the construction of the Great Pyramid.",
-        "The Eiffel Tower can be 15 cm taller during the summer due to the expansion of iron when heated.",
-        "Pineapples take two years to grow.",
-        "A group of flamingos is called a flamboyance.",
-        "The shortest war in history was between Britain and Zanzibar on August 27, 1896, lasting about 38 minutes.",
-        ]
-   
 
+while choice != "off":
+    #Music
+    
 
-              
-    
-    
     
